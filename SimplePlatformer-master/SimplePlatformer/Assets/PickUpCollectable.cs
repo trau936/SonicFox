@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PickUpCollectable : MonoBehaviour
 {
@@ -18,6 +16,14 @@ public class PickUpCollectable : MonoBehaviour
 
 
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Player") 
+        {
+            Destroy(gameObject);
+            //Playsound
+        }
+    }
 
 
 
