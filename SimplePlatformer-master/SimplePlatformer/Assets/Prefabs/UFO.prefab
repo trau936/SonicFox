@@ -104,9 +104,10 @@ GameObject:
   - component: {fileID: 6089495322232189408}
   - component: {fileID: 6089495322232189421}
   - component: {fileID: 6089495322232189420}
+  - component: {fileID: 1501559720}
   m_Layer: 0
   m_Name: UFO
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,3 +226,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.97
+--- !u!114 &1501559720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089495322232189409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c989b0c8979249bd90a66dca8490dd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myBullet: {fileID: 4987758460320542731, guid: 551c9e0a8f72a4f1e8a77ae0521723df,
+    type: 3}
