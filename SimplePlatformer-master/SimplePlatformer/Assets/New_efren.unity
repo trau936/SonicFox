@@ -9874,11 +9874,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UFO
       objectReference: {fileID: 0}
-    - target: {fileID: 6089495322232189409, guid: 55065124695bb468aa0140759d5407e0,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 6089495322232189410, guid: 55065124695bb468aa0140759d5407e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9933,11 +9928,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6089495322232189408, guid: 55065124695bb468aa0140759d5407e0,
-        type: 3}
-      propertyPath: movementSpeed
-      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55065124695bb468aa0140759d5407e0, type: 3}
