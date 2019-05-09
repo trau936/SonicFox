@@ -6,6 +6,7 @@ public class MoveBullet : MonoBehaviour
 {
     public float movementSpeed;
     public Rigidbody2D theRB2D;
+    public int bulletDamage;
 
 
     // Start is called before the first frame update
@@ -27,10 +28,23 @@ public class MoveBullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag != "Player")
+        if (other.tag == "Enemy")
+        {
+            other.GetComponent<ENemyHealthController>().TakeDamage(bulletDamage);
+            Destroy(gameObject);
+
+        }
+        else if (other.tag == "Destructable")
+        {
+            other.GetComponent<DestructableBlock>().TakeDamage(bulletDamage);
+            Destroy(gameObject);
+
+        }
+        else if (other.tag != "Player")
         {
             Destroy(gameObject);
             //Playsound
         }
+       
     }
 }
