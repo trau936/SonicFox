@@ -25,4 +25,9 @@ public class MyLoadLevel : MonoBehaviour
             SceneManager.LoadScene(leveToLoad);
         }
     }
+
+    public void LoadALevel(string level)
+    {
+        SceneManager.LoadScene(level);
+    }
 }
