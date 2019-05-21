@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveBullet : MonoBehaviour
+public class MoveBadGuyBullet : MonoBehaviour
 {
+
     public float movementSpeed;
     public Rigidbody2D theRB2D;
     public int bulletDamage;
@@ -30,25 +31,19 @@ public class MoveBullet : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            other.GetComponent<ENemyHealthController>().TakeDamage(bulletDamage);
-            Destroy(gameObject);
+            //
 
         }
-        else if (other.tag == "EnemyBullet")
-        { 
-
-        }
-        else if (other.tag == "Destructable")
+        else if (other.tag == "Player")
         {
-            other.GetComponent<DestructableBlock>().TakeDamage(bulletDamage);
+            //make player take damage
+            other.GetComponent<PlayerHealthControl>().TakeDamage(bulletDamage);
             Destroy(gameObject);
 
-        }
-        else if (other.tag != "Player")
-        {
-            Destroy(gameObject);
             //Playsound
         }
-       
+
     }
 }
+
+

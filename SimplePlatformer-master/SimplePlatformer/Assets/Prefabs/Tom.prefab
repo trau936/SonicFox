@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 230f7fcbb735b40e88fc8e287dbfba3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 45
+  health: 75
 --- !u!58 &7346684088266010776
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 8220050790354840268}
   m_Layer: 0
   m_Name: Tom
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
