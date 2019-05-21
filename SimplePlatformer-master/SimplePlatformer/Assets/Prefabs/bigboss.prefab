@@ -146,9 +146,9 @@ MonoBehaviour:
   rayColor: {r: 1, g: 0, b: 0, a: 1}
   attackRange: 10
   thePlayer: {fileID: 0}
-  badGuyBullet: {fileID: 4987758460320542731, guid: af98ddc95e3d74df3ab236972ea88b95,
+  badGuyBullet: {fileID: 4987758460320542731, guid: e3cd0693d8dec4cca95589fafb05ab5c,
     type: 3}
-  attackTime: 2
+  attackTime: 1
 --- !u!1 &8220050789637320699
 GameObject:
   m_ObjectHideFlags: 0

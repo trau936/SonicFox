@@ -24501,7 +24501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48052dfc387c048f0ac74f4bfaebb84f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 125
   levelToLoad: New_efren
 --- !u!1001 &662286868
 PrefabInstance:
@@ -61245,6 +61245,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1471807681355850773, guid: 8933d783728fc4730946695c4418bcc0,
+        type: 3}
+      propertyPath: attackRange
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8933d783728fc4730946695c4418bcc0, type: 3}
 --- !u!1001 &1725541804
@@ -75808,12 +75813,12 @@ PrefabInstance:
     - target: {fileID: 4840711121033468646, guid: b5ff79c5841d645fdbe1fa95287d4a09,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.1
+      value: 71.6
       objectReference: {fileID: 0}
     - target: {fileID: 4840711121033468646, guid: b5ff79c5841d645fdbe1fa95287d4a09,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.6
+      value: 8.2
       objectReference: {fileID: 0}
     - target: {fileID: 4840711121033468646, guid: b5ff79c5841d645fdbe1fa95287d4a09,
         type: 3}
@@ -75858,6 +75863,16 @@ PrefabInstance:
     - target: {fileID: 4840711121033468646, guid: b5ff79c5841d645fdbe1fa95287d4a09,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840711122809879080, guid: b5ff79c5841d645fdbe1fa95287d4a09,
+        type: 3}
+      propertyPath: attackRange
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840711122809879082, guid: b5ff79c5841d645fdbe1fa95287d4a09,
+        type: 3}
+      propertyPath: m_AutoTiling
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -76057,6 +76072,16 @@ PrefabInstance:
         type: 3}
       propertyPath: health
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791674114724230599, guid: e6ebc4c62730240218fea3eb40bc08cb,
+        type: 3}
+      propertyPath: attackTime
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791674114724230599, guid: e6ebc4c62730240218fea3eb40bc08cb,
+        type: 3}
+      propertyPath: attackRange
+      value: 17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6ebc4c62730240218fea3eb40bc08cb, type: 3}

@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4987758460320542774}
   - component: {fileID: 4987758460320542775}
-  - component: {fileID: 4987758460320542728}
   - component: {fileID: 4987758460320542729}
   - component: {fileID: 4987758460320542730}
   - component: {fileID: 1273972834814167198}
+  - component: {fileID: 4698829555022476512}
   m_Layer: 0
-  m_Name: bullet 1
-  m_TagString: Untagged
+  m_Name: boss bullet
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 57bfb2d1aeec347c6b64c10a2ff5e44a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8453afd6fa4a4cecb2ef3133a322821, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,21 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4987758460320542728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4987758460320542731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eda2369c92c884e5dae73bbcb8074002, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 60
-  theRB2D: {fileID: 0}
-  bulletDamage: 8
 --- !u!50 &4987758460320542729
 Rigidbody2D:
   serializedVersion: 4
@@ -134,7 +119,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.86
+  m_Radius: 0.5
 --- !u!82 &1273972834814167198
 AudioSource:
   m_ObjectHideFlags: 0
@@ -231,3 +216,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4698829555022476512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987758460320542731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35a5d3192bd2479296259782f47843a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 11
+  theRB2D: {fileID: 4987758460320542729}
+  bulletDamage: 25
