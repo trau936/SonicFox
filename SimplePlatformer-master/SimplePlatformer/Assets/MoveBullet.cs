@@ -34,6 +34,10 @@ public class MoveBullet : MonoBehaviour
             Destroy(gameObject);
 
         }
+        else if (other.tag == "EnemyBullet")
+        { 
+
+        }
         else if (other.tag == "Destructable")
         {
             other.GetComponent<DestructableBlock>().TakeDamage(bulletDamage);
