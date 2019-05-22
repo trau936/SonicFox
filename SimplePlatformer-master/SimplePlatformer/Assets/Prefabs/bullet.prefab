@@ -97,7 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 60
   theRB2D: {fileID: 0}
-  bulletDamage: 1
+  bulletDamage: 5
 --- !u!50 &4987758460320542729
 Rigidbody2D:
   serializedVersion: 4
