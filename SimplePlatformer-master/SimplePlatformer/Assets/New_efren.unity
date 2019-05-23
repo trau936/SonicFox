@@ -2661,6 +2661,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 18.6
       objectReference: {fileID: 0}
+    - target: {fileID: 8639286254148234783, guid: 4dd089ee7e9764467a0261722a0ca8ca,
+        type: 3}
+      propertyPath: attackRange
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd089ee7e9764467a0261722a0ca8ca, type: 3}
 --- !u!1001 &54898781
@@ -24605,7 +24610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48052dfc387c048f0ac74f4bfaebb84f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 150
+  health: 175
   levelToLoad: New_efren
 --- !u!1001 &662286868
 PrefabInstance:
@@ -61267,12 +61272,12 @@ PrefabInstance:
     - target: {fileID: 8220050790354840268, guid: 8933d783728fc4730946695c4418bcc0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 97.6
+      value: 102.6
       objectReference: {fileID: 0}
     - target: {fileID: 8220050790354840268, guid: 8933d783728fc4730946695c4418bcc0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.8
+      value: -7.7
       objectReference: {fileID: 0}
     - target: {fileID: 8220050790354840268, guid: 8933d783728fc4730946695c4418bcc0,
         type: 3}
@@ -61352,7 +61357,7 @@ PrefabInstance:
     - target: {fileID: 1471807681355850773, guid: 8933d783728fc4730946695c4418bcc0,
         type: 3}
       propertyPath: attackRange
-      value: 25
+      value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8933d783728fc4730946695c4418bcc0, type: 3}
@@ -71620,6 +71625,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 18.6
       objectReference: {fileID: 0}
+    - target: {fileID: 8639286254148234783, guid: 4dd089ee7e9764467a0261722a0ca8ca,
+        type: 3}
+      propertyPath: attackRange
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd089ee7e9764467a0261722a0ca8ca, type: 3}
 --- !u!1001 &2023547570
@@ -76294,7 +76304,7 @@ PrefabInstance:
     - target: {fileID: 2791674114724230599, guid: e6ebc4c62730240218fea3eb40bc08cb,
         type: 3}
       propertyPath: attackRange
-      value: 17
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8220050790077628342, guid: e6ebc4c62730240218fea3eb40bc08cb,
         type: 3}
