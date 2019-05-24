@@ -249,6 +249,7 @@ GameObject:
   - component: {fileID: 6089495322232189421}
   - component: {fileID: 6089495322232189420}
   - component: {fileID: 1501559720}
+  - component: {fileID: 455553001658675555}
   m_Layer: 0
   m_Name: Player-Rudy
   m_TagString: Player
@@ -392,3 +393,17 @@ MonoBehaviour:
   myUFO: {fileID: 0}
   projectile: {fileID: 4987758460320542731, guid: 551c9e0a8f72a4f1e8a77ae0521723df,
     type: 3}
+--- !u!114 &455553001658675555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089495322232189409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48052dfc387c048f0ac74f4bfaebb84f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 155
+  levelToLoad: Rudy
