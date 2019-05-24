@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rayColor: {r: 1, g: 0, b: 0, a: 1}
-  attackRange: 10
+  attackRange: 17
   thePlayer: {fileID: 0}
   badGuyBullet: {fileID: 4987758460320542731, guid: af98ddc95e3d74df3ab236972ea88b95,
     type: 3}

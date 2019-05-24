@@ -230,4 +230,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 10
   theRB2D: {fileID: 4987758460320542729}
-  bulletDamage: 5
+  bulletDamage: 10
