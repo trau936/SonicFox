@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8220050788726140632}
   - component: {fileID: 8220050788726140635}
   - component: {fileID: 566723779874780345}
+  - component: {fileID: 8639286254148234783}
   m_Layer: 0
   m_Name: Image
   m_TagString: Enemy
@@ -139,7 +140,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 230f7fcbb735b40e88fc8e287dbfba3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 45
+  health: 90
+--- !u!114 &8639286254148234783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8220050788726140637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b9562d2c2c248d6943332fdb252607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayColor: {r: 1, g: 0, b: 0, a: 1}
+  attackRange: 17
+  thePlayer: {fileID: 0}
+  badGuyBullet: {fileID: 4987758460320542731, guid: af98ddc95e3d74df3ab236972ea88b95,
+    type: 3}
+  attackTime: 0.75
 --- !u!1 &8220050789637320699
 GameObject:
   m_ObjectHideFlags: 0
